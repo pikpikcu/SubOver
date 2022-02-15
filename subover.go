@@ -39,7 +39,7 @@ var (
 )
 
 func InitializeProviders() {
-    raw, err := ioutil.ReadFile("~/bugbounty/tools/file/SubOver/providers.json")
+    raw, err := ioutil.ReadFile("/home/pikpikcu/bugbounty/tools/file/SubOver/providers.json")
     if err != nil {
         fmt.Println(err.Error())
         os.Exit(1)
